@@ -6,19 +6,26 @@ It uses **semantic similarity (Sentence Transformers)** and works via a **Chrome
 
 ## 🚀 Features
 
-- 🎵 Recommends similar YouTube songs
-- 🧠 ML-powered semantic similarity (Sentence Transformers)
-- 🔁 Auto-refreshes recommendations when video changes
-- 🌐 Backend hosted on **Hugging Face Spaces**
-- ⚡ FastAPI-based REST API
-- 🧩 Chrome Extension frontend
+- Recommends similar YouTube songs
+- ML-powered semantic similarity (Sentence Transformers)
+- Auto-refreshes recommendations when video changes
+- Backend hosted on **Hugging Face Spaces**
+- FastAPI-based REST API
+- Chrome Extension frontend
 
 
 > **Note:** TunePilot currently supports recommendations for **approximately 25,000 YouTube music videos**.
 > This limitation exists because the model relies on a **publicly available, curated dataset**, not the entire YouTube catalog. If a currently playing video is **not present in the dataset**, recommendations may not appear.
 
 
-## 🏗 Tech Stack
+## 🌐 Interface
+<p align="center">
+  <img src="https://github.com/nandandkl/breakout/blob/a5a2543ba9e8ff8038d3e0a4d7d2fbc3281a26ea/screenshot2.png" width="40%">
+  <img src="https://github.com/nandandkl/breakout/blob/a5a2543ba9e8ff8038d3e0a4d7d2fbc3281a26ea/screenshot1.png" width="40%">
+</p>
+
+
+## 💻  Tech Stack
 
 ### Backend (Hosted)
 - Python
@@ -35,7 +42,7 @@ It uses **semantic similarity (Sentence Transformers)** and works via a **Chrome
 - HTML / CSS
 
 
-## 🧠 Recommendation Flow
+## 💡 Recommendation Flow
 
 1. User plays a YouTube video
 2. Chrome Extension extracts the **YouTube video ID**
@@ -47,29 +54,29 @@ It uses **semantic similarity (Sentence Transformers)** and works via a **Chrome
 5. Extension updates recommendations automatically
 
 
-## 🌍 Backend (Hugging Face Space)
+## 📁 Backend (Hugging Face Space)
 
-👉 **Backend code & deployment are hosted here:**
-
-🔗 **https://huggingface.co/spaces/nandandkl/tp-recommender**
+**Backend code & deployment are hosted here:** [nandandkl/tp-recommender](https://huggingface.co/spaces/nandandkl/tp-recommender)
 
 ### API Endpoint
 
-``` POST https://nandandkl-tp-recommender.hf.space/recommend ```
+```
+POST https://nandandkl-tp-recommender.hf.space/recommend 
+```
 
 
 ### Request Body
-```JSON
+```
 {
   "youtube_id": "VIDEO_ID"
 }
 ```
 
 ### Response
-```JSON
+```
 [
   {
-    "youtube_id": "xxxx",
+    "youtube_id": "Video Id",
     "title": "Song Name",
     "artist": "Artist",
     "genre": "Pop",
