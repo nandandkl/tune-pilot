@@ -20,8 +20,8 @@ It uses **semantic similarity (Sentence Transformers)** and works via a **Chrome
 
 ## 🌐 Interface
 <p align="center">
-  <img src="https://github.com/nandandkl/breakout/blob/a5a2543ba9e8ff8038d3e0a4d7d2fbc3281a26ea/screenshot2.png" width="40%">
-  <img src="https://github.com/nandandkl/breakout/blob/a5a2543ba9e8ff8038d3e0a4d7d2fbc3281a26ea/screenshot1.png" width="40%">
+  <img src="https://github.com/nandandkl/tune-pilot/blob/48f8e7ade02873a711f7be3359bc4fdd63a89902/icons/screenshot1.png" width="40%">
+  <img src="https://github.com/nandandkl/tune-pilot/blob/48f8e7ade02873a711f7be3359bc4fdd63a89902/icons/screenshot2.png" width="40%">
 </p>
 
 
