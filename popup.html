@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TunePilot</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <header class="popup-header">
+      <h1>🎵 TunePilot</h1>
+    </header>
+    <div id="content">
+      <div id="loading" class="hidden">
+        <div class="spinner"></div>
+        <p>Finding recommendations...</p>
+      </div>
+      <div id="error" class="hidden">
+        <p>Please navigate to a YouTube video to get recommendations.</p>
+      </div>
+      <div id="recommendations"></div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
