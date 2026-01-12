@@ -72,20 +72,6 @@ POST https://nandandkl-tp-recommender.hf.space/recommend
 }
 ```
 
-### Response
-```
-[
-  {
-    "youtube_id": "Video Id",
-    "title": "Song Name",
-    "artist": "Artist",
-    "genre": "Pop",
-    "year": 2020,
-    "views": 123456789
-  }
-]
-```
-
 ## 🧩 Chrome Extension Setup
 1. Open Chrome → `chrome://extensions`
 2. Enable **Developer Mode**
